@@ -5,29 +5,30 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+ pessoas  que  tem dificuldade  em entender a complexidade dos riscos quanto ao uso prático de ativos finaceiros
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+ o Agente atua como um tradutor de riscos fazendo com que até mesmo um investidor iniciante entenda a gravidade real e pense duas vezes antes investir de acordo com os seus recursos atuais, por exemplo ver o que acontece se der  tudo errado.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+para principalmente investidores iniciantes ou pessoas que estão começando na area de investimento 
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Prisma Legends financeiro
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-[Sua descrição aqui]
+> direto e paciente
+> gentil e educado
+>  responder de forma simples e clara 
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
