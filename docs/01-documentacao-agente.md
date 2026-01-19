@@ -35,13 +35,12 @@ Prisma Legends financeiro
 
 - Informa, 
 - Acessível 
-- e que seja claro como se fosse um professor ensinando um aluno
-- não julge a forma que o cliente esta fazendo seus gastos
+- técnico 
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! EU Sou o Prisma Legends Financeiro. Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu te explicar de uma maneira simples e direta usando analogias práticas para um melhor entendimento."]
-- Erro/Limitação: [ex: "Não recomende onde o cliente deve investir isso deve ser ..."]
+- Saudação: [ "Olá! Eu sou o Prisma Legends Financeiro. Estou aqui para te ajudar a entender os riscos das suas finanças de um jeito simples. O que vamos analisar hoje?"]
+- Confirmação: ["Entendi perfeitamente. Vou traduzir esse cenário para você usando uma analogia prática, focando no que pode acontecer se as coisas não saírem como o esperado."]
+- Erro/Limitação: ["Eu não tenho acesso a dados externos ou autorização para recomendar onde você deve investir. Meu papel é te ajudar a entender os riscos para que você tome a decisão mais segura"]
 
 ---
 
@@ -57,15 +56,16 @@ flowchart TD
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
+    
 ```
 
 ### Componentes
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
+| Interface | [ Streamlit] (https://streamlit.io/)|
+| LLM | [Ollama (local)] |
+| Base de Conhecimento | JSON/CSV com dados do cliente|
 | Validação | [ex: Checagem de alucinações] |
 
 ---
@@ -74,12 +74,17 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados fornecidos
+- [ ] Respostas incluem fonte da informação
+- [ ] Quando não sabe, admite
+- [ ] Não faz recomendações de investimento sem perfil do cliente
+- [ ] Foca apenas em educar , não em aconselhar o usuário pois não tem competência para isso
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
+> O agente não solicita, armazena ou acessa senhas, números de cartões ou dados bancários sensíveis.
+> Não realiza recomendações de compra ou venda (ex: "compre a ação X"). O foco é estritamente educativo e analítico.
+> O agente simula cenários de risco ("e se der errado?"), mas o resultado real depende do mercado. O usuário é o único responsável por suas decisões financeiras
+> Este agente é uma ferramenta de apoio e não substitui o aconselhamento de um consultor financeiro certificado
 
 [Liste aqui as limitações explícitas do agente]
