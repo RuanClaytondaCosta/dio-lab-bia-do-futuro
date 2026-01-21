@@ -37,6 +37,7 @@
     "risco": "alto",
     "rentabilidade": "Variável",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "indicado_para": "Perfil arrojado com foco no longo prazo",
+    "alerta_vulnerabilidade" : "qaundo tiver juros Altos é recomendavel não investir"
   }
 ]
