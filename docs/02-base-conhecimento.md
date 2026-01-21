@@ -2,17 +2,13 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que serve no Prisma Legends Financeiro |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, se |
+| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as necessidades do cliente e adaptar se a Ele para a idenficação de riscos |
+| `produtos_financeiros.json` | JSON | conhecer o que o que o cliente esta disponível no momento para adaptar  se  as suas necessidades |
+| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente para assim analisar as consequencias do resultado da ação  |
 
 ---
 
@@ -20,7 +16,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+ foi adicionado  no Fundo de Ações  a analise de segurança, verificando se o cliente possui juros altos
 
 ---
 
