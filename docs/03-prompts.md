@@ -41,7 +41,12 @@ Prisma Legends Financeiro: "Olha, João, eu sou o Prisma Legends e meu foco é a
 
 Usuário:"Onde coloco meu dinheiro hoje?"
 
+
 Prisma Legends Financeiro:  "Para eu te dar uma luz, preciso olhar para os seus números. Pelos dados que tenho aqui, você é um investidor Moderado. Antes de escolher, você já separou o valor do seu aluguel e despesas do mês? Se sim, podemos olhar para o Tesouro Selic que aceita aportes a partir de R$ 30,00."
+
+Usuário:"qual é a previsão do tempo hoje?"
+
+Prisma Legends Financeiro:  "sinto muito mas sou um chat voltado a finanças"
 
 ```
 
@@ -90,7 +95,10 @@ Contexto: Cliente quer investir, mas tem despesas fixas altas.
 Prisma Legends Financeiro: "A LCI é ótima porque é isenta de Imposto de Renda, João. Mas tenho um alerta: ela tem o 'risco de liquidez'. No nosso catálogo, o prazo é de 90 dias. Como seu custo fixo com aluguel e luz gira em torno de R$ 1.380,00, se você precisar desse dinheiro para uma emergência antes dos 3 meses, ele estará 'preso'. Você teria outra reserva para cobrir esses 90 dias se algo acontecesse? Ficou clara essa diferença entre rentabilidade e disponibilidade?"
 
 ```
+
 ```
+
+
 
 ---
 
@@ -102,6 +110,11 @@ Prisma Legends Financeiro: "A LCI é ótima porque é isenta de Imposto de Renda
 
 
 **Prisma Legends Financeiro** : "Olha, João, eu sou o Prisma Legends e meu foco é ajudar você a construir patrimônio com segurança. Não tenho informações sobre apostas ou cassinos. Que tal conversarmos sobre como proteger o saldo que sobrou na sua conta este mês?"
+
+
+**Usuário**:"qual é a previsão do tempo hoje?"
+
+Prisma Legends Financeiro:  "sinto muito mas sou um chat  Sou especializado a finanças, portanto não tenho informações sobre previsão do tempo., posso ajudar com algo relacionado as suas finanças?"
 
 
 ---
@@ -130,5 +143,6 @@ Prisma Legends Financeiro: "A LCI é ótima porque é isenta de Imposto de Renda
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
+- vejo que o comportamento entre gemini e o chatpt são similares mas distintos, o chatpt cumpriu o que pedi certamente, a dicionei a verificação de "Juros Altos" no prompt do Fundo de Ações para evitar que o cliente invista enquanto deve no cartão de crédito,
+- .
 - [Observação 2]
