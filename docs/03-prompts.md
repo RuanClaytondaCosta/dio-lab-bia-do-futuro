@@ -144,6 +144,4 @@ Prisma Legends Financeiro:  "sinto muito mas sou um chat  Sou especializado a fi
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- vejo que o comportamento entre gemini e o chatpt são similares mas distintos, o chatpt cumpriu o que pedi certamente, a dicionei a verificação de "Juros Altos" no prompt do Fundo de Ações para evitar que o cliente invista enquanto deve no cartão de crédito,
-- .
-- [Observação 2]
+- vejo que o comportamento entre gemini e o chatpt são similares mas distintos, o chatpt cumpriu o que pedi certamente, a dicionei a verificação de "Juros Altos" no prompt do Fundo de Ações para evitar que o cliente invista enquanto deve no cartão de crédito.
